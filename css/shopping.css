@@ -1,27 +1,33 @@
  body{
   
-   color: red;
+   background-image: url(8.jpg);
+   background-repeat: none;
+   background-size: cover;
 
 
 }
 
  .header{
-background-image: url();
+
 width: 100%;
 background-color: black;
-display: inline-block;
+display: flex;
 opacity: 0.45;
+
+
 
  }
 
 
  .header ul li{
 
-    display: inline-block;
+    
     list-style: none;
     text-align: center;
-    float: none;
+    float: left;
  }
+
+
 
 
      .header ul li a{
@@ -30,7 +36,7 @@ opacity: 0.45;
         color: #fff;
         font-size: 20px;
         letter-spacing: 2px;
-        font-weight: 600;
+        font-weight: 200;
         padding: 30px;
         text-decoration: none;
         transition: ease-out 0.2s;
@@ -46,6 +52,28 @@ opacity: 0.45;
 
          .header ul li a:hover{
             background-color: green;
-            padding: 25px;
-            margin: 25px;
+            padding: 30px;
+            
          }
+
+
+      
+
+         .header li a .tooltiptext {
+            visibility: hidden;
+            font-size: 15px;
+            
+    
+            
+         }
+
+         .header li a:hover .tooltiptext{
+            visibility: visible;
+         }
+
+         .header ul li a:hover .fa-right-from-bracket{
+            visibility: hidden;
+
+         }
+
+         
