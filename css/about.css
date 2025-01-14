@@ -47,12 +47,13 @@ body, head {
    
       list-style-type: none;
       text-decoration: none;
-      
+      transition: ease-out 0.2s;
+        transition: all ease-in 0.2 s;
    
    }
 
    .navbar ul li a:hover{
-
+    padding: 20px;
     color: cadetblue;
     background-color: #111;
    }
